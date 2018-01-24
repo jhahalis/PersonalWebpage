@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    background-color: lavender;
+    color: purple;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#picture {
+    height: 100px;
+    width: 100px;
+}
+
+.name { 
+    font-size: xx-large
+}
+
+.jobTitle {
+    font-size: x-large
+}
+
+.my-links-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 100px;
+}
+
+.my-links {
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.linkIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.repostitories {
+    position: relative;
+    padding: 100px;
+}
+
+.skills {
+    position: relative;
+}
+
+#email {
+    font-size: xx-large
+}
+
+#emailIcon {
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+}
