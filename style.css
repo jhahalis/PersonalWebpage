@@ -16,41 +16,59 @@
 #picture {
     height: 100px;
     width: 100px;
+    justify-self: left;
 }
 
 .name { 
-    font-size: xx-large
+    font-size: xx-large;
 }
 
 .jobTitle {
-    font-size: x-large
+    font-size: x-large;s
 }
 
 .my-links-container {
+    background-color: orchid;
     display: flex;
     justify-content: center;
+    align-content: center;
     position: relative;
     padding: 100px;
+    overflow: hidden;
 }
 
-.my-links {
-    width: 900px;
+h2 {
+    justify-self: left;
+}
+
+.repositories-container {
+    justify-self: left;
+    background-color: darkorchid;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    padding: 100px;
+    overflow: hidden;
 }
 
+.skills-container {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    padding: 100px;
+    overflow: hidden;
+}
+
+li {
+    font-family: Lucida Grande;
+    font-size: large;
+}
 .linkIcon {
     width: 100px;
     height: 100px;
-}
-
-.repostitories {
-    position: relative;
-    padding: 100px;
-}
-
-.skills {
-    position: relative;
 }
 
 #email {

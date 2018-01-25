@@ -35,7 +35,6 @@ function callAJAX (url, callback) {
           //alert(repo);
           let name=repo.name;
           let url=repo.html_url;
-          //li><a class="my-links-item" href="https://github.com/jhahalis/lesson7stretchgoal1" target="_blank"><label>Repository One</label></a></li>
           html += '<li><a class="my-links-item" href="'+ url + '" target="_blank"><label>' + name + '</label></a></li>';
      }
      html += "</ul>";
